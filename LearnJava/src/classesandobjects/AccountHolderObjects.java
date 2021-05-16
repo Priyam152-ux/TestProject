@@ -5,6 +5,7 @@ public class AccountHolderObjects {
 	public static void main(String[] args) {
 
 		AccountHolder Tom = new AccountHolder();
+		AccountHolder Max = new AccountHolder();
 		AccountHolder Henry = new AccountHolder();
 		AccountHolder Sarah = new AccountHolder();
 
@@ -14,7 +15,14 @@ public class AccountHolderObjects {
 		Tom.accountbalance = 10000;
 		Tom.testeligibilityforcreditcard();
 		System.out.println("Is Tom eligible for credit card: " + Tom.eligibleforcreditcard);
-
+		
+		Max.fisrtname = "Tom";
+		Max.lastname = "Mishra";
+		Max.age = 21;
+		Max.accountbalance = 10000;
+		Max.testeligibilityforcreditcard();
+		System.out.println("Is Max eligible for credit card: " + Max.eligibleforcreditcard);
+		
 		Henry.fisrtname = "Henry";
 		Henry.lastname = "Tyagi";
 		Henry.age = 32;
